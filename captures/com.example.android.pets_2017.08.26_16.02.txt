@@ -1,0 +1,84 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1b50786 com.example.android.pets/.CatalogActivity filter e12e9a3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Registered ContentProviders:
+  com.example.android.pets/com.android.tools.fd.runtime.InstantRunContentProvider:
+    Provider{a033847 com.example.android.pets/com.android.tools.fd.runtime.InstantRunContentProvider}
+
+ContentProvider Authorities:
+  [com.example.android.pets.com.android.tools.fd.runtime.InstantRunContentProvider]:
+    Provider{a033847 com.example.android.pets/com.android.tools.fd.runtime.InstantRunContentProvider}
+      applicationInfo=ApplicationInfo{c6ec874 com.example.android.pets}
+
+Key Set Manager:
+  [com.example.android.pets]
+      Signing KeySets: 19
+
+Packages:
+  Package [com.example.android.pets] (9f6e19d):
+    userId=10084
+    pkg=Package{34a1612 com.example.android.pets}
+    codePath=/data/app/com.example.android.pets-lYnPzuJPpqY7QGokFJRFdw==
+    resourcePath=/data/app/com.example.android.pets-lYnPzuJPpqY7QGokFJRFdw==
+    legacyNativeLibraryDir=/data/app/com.example.android.pets-lYnPzuJPpqY7QGokFJRFdw==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=15 targetSdk=24
+    versionName=1.0
+    splits=[base, lib_dependencies_apk, lib_slice_0_apk, lib_slice_1_apk, lib_slice_2_apk, lib_slice_3_apk, lib_slice_4_apk, lib_slice_5_apk, lib_slice_6_apk, lib_slice_7_apk, lib_slice_8_apk, lib_slice_9_apk]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{c6ec874 com.example.android.pets}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ]
+    dataDir=/data/user/0/com.example.android.pets
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-08-26 15:52:33
+    firstInstallTime=2017-08-26 15:52:35
+    lastUpdateTime=2017-08-26 15:52:35
+    signatures=PackageSignatures{d3111e3 [5b41044d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=-4294952106 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false
+      runtime permissions:
+
+Package Changes:
+  Sequence number=258
+  User 0:
+    seq=0, package=com.google.android.webview
+    seq=2, package=com.google.android.setupwizard
+    seq=3, package=com.android.sdksetup
+    seq=11, package=com.example.android.pets
+    seq=42, package=com.google.android.partnersetup
+    seq=188, package=com.google.android.gsf
+    seq=190, package=com.google.android.calendar
+    seq=191, package=com.android.camera2
+    seq=192, package=com.android.inputmethod.latin
+    seq=196, package=com.google.android.apps.messaging
+    seq=211, package=com.google.android.gm
+    seq=213, package=com.google.android.googlequicksearchbox
+    seq=217, package=com.google.android.apps.maps
+    seq=218, package=com.android.vending
+    seq=233, package=com.google.android.videos
+    seq=237, package=com.google.android.youtube
+    seq=238, package=com.google.android.talk
+    seq=255, package=com.android.settings
+    seq=257, package=com.google.android.gms
+
+
+Dexopt state:
+  [com.example.android.pets]
+    Instruction Set: x86
+      path: /data/app/com.example.android.pets-lYnPzuJPpqY7QGokFJRFdw==/base.apk
+      status: /data/app/com.example.android.pets-lYnPzuJPpqY7QGokFJRFdw==/oat/x86/base.odex[status=kOatUpToDate, compila
+      tion_filter=quicken]
+
+
+Compiler stats:
+  [com.example.android.pets]
+     base.apk - 626
+
+Enabled overlay paths:
